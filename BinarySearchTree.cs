@@ -28,6 +28,7 @@ namespace BinarySearchTree
                 {
                     left = node;
                     Console.WriteLine("left side:"+left.data);
+                    
                 }
                 if(root.data < node.data)
                 {

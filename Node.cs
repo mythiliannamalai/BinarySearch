@@ -13,5 +13,10 @@ namespace BinarySearchTree
         {
             this.data = data;           
         }
+        BinarySearchTree tree = new BinarySearchTree();
+        public void Add(Node node)
+        {
+            tree.insertroot(node);
+        }
     }
 }
