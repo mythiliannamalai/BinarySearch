@@ -33,6 +33,8 @@ namespace BinarySearchTree
             node.Add(node10);
             node.Add(node11);
             node.Add(node12);
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.search(63);
         }
     }
 }
